@@ -16,7 +16,7 @@ At line:1 char:1
     + FullyQualifiedErrorId : UnauthorizedAccess
 ```
 
-This is because of ![Microsoft's security policy](https://go.microsoft.com/fwlink/?LinkID=135170). To fix this, open PowerShell as an administrator and run the following command:
+This is because of [Microsoft's security policy](https://go.microsoft.com/fwlink/?LinkID=135170). To fix this, open PowerShell as an administrator and run the following command:
 
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
